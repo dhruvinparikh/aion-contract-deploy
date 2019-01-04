@@ -60,7 +60,6 @@ const getTransactionObject = async (contractData, address, deployableContract) =
     gas:2000000,  //intentionally assigning value explicitly  
     data: contractData
   };
-console.log(transaction)
   return transaction;
 };
 
