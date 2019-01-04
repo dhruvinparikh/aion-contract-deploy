@@ -1,0 +1,27 @@
+{
+  "name": "aion-contract-deploy",
+  "version": "1.0.0",
+  "description": "Deploying Contract On AION",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Dhruvin Parikh",
+  "license": "MIT",
+  "dependencies": {
+    "aion-web3": "^1.1.4",
+    "aion-web3-eth-accounts": "^1.1.0",
+    "bignumber.js": "^7.2.1",
+    "server": "^1.0.18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "nodemon": "^1.18.4"
+  }
+}
