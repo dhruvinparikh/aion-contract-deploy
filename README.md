@@ -13,3 +13,10 @@ Be sure to add your own credentials into a `credentials.js` file with the follow
 
 - `PRIVATE_KEY` Either create a wallet programatically, or use [AIWA]: https://getaiwa.com to create a wallet and then grab testnet Aion from the [faucet]: https://faucets.blockxlabs.com/aion
 - `NODESMITH_API` Use Nodesmith to obtain an endpoint to access the blockchain [here]: https://nodesmith.io/
+
+Example 
+
+```
+export const PRIVATE_KEY = [YOUR_PRIVATE_KEY];
+export const NODESMITH_API = [YOUR_NODESMITH_API_URL_WITH_KEY]
+```
