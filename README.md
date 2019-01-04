@@ -1,6 +1,6 @@
 # Deploying Smart Contract on AION
 
-> Handy code to deloy Smart Contract on AION blockchain.
+> Handy code to deploy Smart Contract on [AION]: https://aion.network blockchain.
 
 ## Getting Started
 
