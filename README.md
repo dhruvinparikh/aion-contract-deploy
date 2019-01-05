@@ -18,5 +18,5 @@ Example
 
 ```
 export const PRIVATE_KEY = [YOUR_PRIVATE_KEY];
-export const NODESMITH_API = [YOUR_NODESMITH_API_URL_WITH_KEY]
+export const NODESMITH_API = [YOUR_NODESMITH_API_URL_WITH_KEY];
 ```
